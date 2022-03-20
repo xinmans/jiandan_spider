@@ -27,6 +27,8 @@ python jiandan.py
 1. build docker image
 ```
 sudo docker build -t jiandan_spider:v1 .
+mkdir -p /data
+sudo chmod 777 /data
 
 ```
 
