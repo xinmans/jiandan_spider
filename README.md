@@ -24,7 +24,14 @@ python jiandan.py
 4. you can see the pic under /data folder
 
 # run as docker
-1. build docker image
+
+1. Clone this repository:
+```shell
+git clone https://github.com/xinmans/jiandan_spider.git
+cd jiandan_spider
+```
+
+2. build docker image
 ```
 sudo docker build -t jiandan_spider:v1 .
 mkdir -p /data
@@ -32,7 +39,7 @@ sudo chmod 777 /data
 
 ```
 
-2. run as docker
+3. run as docker
 ```
 sudo docker run -d --restart=always  --name=jiandan_spider -v /data:/data jiandan_spider:v1
 ```
