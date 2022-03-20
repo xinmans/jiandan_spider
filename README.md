@@ -37,6 +37,21 @@ sudo chmod 777 /data
 sudo docker run -d --restart=always  --name=jiandan_spider -v /data:/data jiandan_spider:v1
 ```
 
+you can see the pics under /data
+
+```
+$ ls -ltr /data
+total 0
+drwxr-xr-x 2 root root 0 Mar 20 15:34 top_photos_unduplicate
+drwxr-xr-x 2 root root 0 Mar 20 17:53 girl_photos_unduplicate
+drwxr-xr-x 2 root root 0 Mar 20 17:54 ooxx_photos_unduplicate
+drwxr-xr-x 2 root root 0 Mar 20 17:54 pic_photos_unduplicate
+drwxr-xr-x 2 root root 0 Mar 20 18:05 pond_photos_unduplicate
+```
+
+
+
+
 
 
 
